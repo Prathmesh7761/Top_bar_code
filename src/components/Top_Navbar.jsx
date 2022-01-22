@@ -1,6 +1,5 @@
 import React from 'react'
 import { MdLocationOn, MdEmail } from "react-icons/md";
-import FontSizeChanger from 'react-font-size-changer';
 
 export default function Top_Navbar() {
   return (
@@ -15,23 +14,11 @@ export default function Top_Navbar() {
 
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 nav_list">
 
-              {/* Font Size Changer */}
-              <li>
-                <FontSizeChanger
-                  targets={['body,h1,h2,h3,h4,h5,h6,p,a,input']}
-                  options={{
-                    stepSize: 1,
-                    range: 8
-                  }}
-                  customButtons={{
-                    up: <button className='nav_font_size_item'>A+</button>,
-                    down: <button className='nav_font_size_item'>A-</button>,
-                    style: {
-                      border: "none"
-                    },
-                    buttonsMargin: 1
-                  }}
-                />
+              {/* font size changer */}
+              <li className='fontSizeSection'>
+                <a class="nav_font_size_item " id="decfont"> <i class="fa fa-font "></i><strong>-</strong></a>
+                &nbsp;
+                <a class="nav_font_size_item " id="incfont"><i class="fa fa-font "></i><strong>+</strong></a>
               </li>
 
               {/* DTE CODE */}

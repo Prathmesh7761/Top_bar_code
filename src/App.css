@@ -1,14 +1,14 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
+
+/* top navbar css starts */
+
 .main_top_nav {
-  line-height: 5px;
-  justify-content: baseline;
+  line-height: 0px;
 }
-.nav_list {
-  margin-bottom: 0px;
-}
+
 .nav_dte_code {
   color: black;
   margin-top: 17px;
@@ -20,19 +20,22 @@
 .nav_location {
   padding: 0px 5px;
   font-size: 25px;
-  margin-top: 8px;
+  margin-top: 4px;
 }
 .nav_mail {
   font-size: 25px;
   padding: 0px 5px;
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
+.fontSizeSection {
+  margin-top: 9px;
+}
 .nav_font_size_item {
   border-radius: 5px;
   font-size: 12px;
   line-height: 1.5;
-  padding: 1px 5px;
+  padding: 5px 5px;
   margin-bottom: 6px;
   font-weight: 700;
   color: #fff;
@@ -46,4 +49,164 @@
   color: #fff;
   background-color: #2e6da4;
   cursor: pointer;
+}
+
+/* top navbar css ends */
+
+/* College name css start */
+body {
+  padding: 0;
+  margin: 0;
+}
+.main_nav_header {
+  height: 2.3rem;
+  background-color: #071c3413;
+}
+.li_item_header {
+  color: black;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+.li_item_header:hover {
+  color: #388087;
+  font-weight: 700;
+}
+.nav_header {
+  background-color: #badfe7;
+}
+.header_div {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.college_image {
+  background-color: whitesmoke;
+  display: flex;
+  margin-left: 10px;
+}
+.govt_image {
+  margin-top: 15px;
+}
+.college_name {
+  text-align: center;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  justify-content: center;
+  color: #071c34;
+  align-items: center;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+}
+.college_name_title {
+  margin-bottom: 0px;
+  align-items: center;
+}
+
+.sidebar-item {
+  /* align-items: right; */
+  margin: 0;
+  font-size: 18px;
+  align-items: right;
+}
+
+/* responsive code */
+@media screen and (max-width: 380px) {
+  .header_div {
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+  }
+  .college_image {
+    /* background-color: #333333; */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    /* width: 80px;
+    height: 70px; */
+    /* margin-left: 10px; */
+  }
+  .govt_image {
+    display: none;
+  }
+  .college_image img {
+    width: 85px;
+    height: auto;
+  }
+  .college_name {
+    /* background-color: #333333; */
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    justify-content: center;
+    color: #071c34;
+
+    align-items: center;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+  }
+  .college_name_title {
+    margin-top: 4px;
+    margin-bottom: 2px;
+    font-size: 1.1rem;
+  }
+  .college_name_headline {
+    margin-bottom: 1px;
+  }
+
+  .blankbar-display {
+    display: flex;
+    flex-direction: row;
+  }
+  .sidebar-item {
+    margin: 0 5px;
+    /* justify-content: space-between; */
+    font-size: 15px;
+  }
+}
+
+/* Main_navbar css starts */
+.main_nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar {
+  background-color: #071c34;
+  margin-bottom: 1px;
+}
+
+.li_item {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 15px 15px;
+  font-size: 17px;
+}
+
+.toogler {
+  background-color: white;
+}
+.nav_content {
+  margin-top: 7px;
+  margin-bottom: -3px;
+}
+.li_item:hover {
+  background-color: #425569;
+  color: white;
+  font-weight: 2000;
+}
+.active_class {
+  color: rgb(255, 148, 8);
+}
+.nav_heading {
+  color: #b3f416;
 }
