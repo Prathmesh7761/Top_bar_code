@@ -1,5 +1,6 @@
 import "./App.css";
 import College_name from "./components/College_name";
+import { Counter } from "./components/Counter";
 import Main_Navbar from "./components/Main_Navbar";
 import Top_Navbar from "./components/Top_Navbar";
 
@@ -10,6 +11,7 @@ function App() {
         <Top_Navbar />
         <College_name />
         <Main_Navbar />
+        <Counter />
       </div>
     </>
   );
