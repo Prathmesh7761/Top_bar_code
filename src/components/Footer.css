@@ -1,0 +1,162 @@
+.background {
+  background-color: black;
+  padding: 35px;
+}
+.wrap {
+  justify-content: space-around;
+  color: white;
+}
+.bd {
+  border-right: 1px dashed #fff;
+  text-align: center;
+  padding-right: 10px;
+}
+.footer-logo {
+  height: 80px;
+  width: 100px;
+  margin: 10px 0px;
+}
+.text-center-1 {
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 15px 0px;
+}
+.bd p,
+.bd a {
+  font-size: 14px;
+  color: gray;
+  text-align: left !important;
+}
+.bd a:hover {
+  color: white !important;
+}
+.quick-link {
+  border-right: 1px dashed #fff;
+  margin-right: 15px;
+}
+.Map {
+  border-right: 1px dashed #fff;
+  padding-right: 15px;
+}
+.map_cont {
+  display: flex;
+  margin-bottom: 14px;
+  position: relative;
+}
+.map_cont::after {
+  content: " ";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 70%;
+  height: 2px;
+  background-color: red;
+}
+.Map i {
+  font-size: 30px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.Map h3 {
+  font-size: 20px;
+}
+.quick-links {
+  font-size: 20px;
+  color: white !important;
+  position: relative;
+}
+.quick-links::after {
+  content: " ";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 50%;
+  height: 2px;
+  background-color: red;
+}
+.wrap a {
+  color: gray;
+  text-decoration: none;
+}
+.wrap a:hover {
+  color: white !important;
+}
+.bottom-border {
+  margin-top: 17px;
+  border-bottom: rgba(128, 128, 128, 0.664) dashed 1px;
+  /* padding: 4px; */
+}
+.cp-foot {
+  background-color: rgb(36, 34, 34);
+}
+.wrap-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: 1px dotted white;
+}
+.cp-foot .cp-txt h1 {
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.footer-links {
+  padding: 0;
+  margin-top: -20px;
+}
+.cp-foot .cp-txt ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  color: gray;
+}
+.cp-foot .cp-txt ul a {
+  font-size: 16px;
+  text-decoration: none;
+  padding: 0 10px;
+  color: gray;
+}
+.cp-foot .cp-txt ul a:hover {
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .bd {
+    border-right: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+  }
+  .quick-link {
+    border-right: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+  }
+  .Map {
+    border-right: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* copyright section */
+  .wrap-2 {
+    overflow-x: hidden;
+  }
+  .wrap-2 img {
+    height: 50px;
+    width: auto;
+  }
+  .cp-foot .cp-txt h1 {
+    font-size: 17px;
+  }
+  .cp-foot .cp-txt ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .cp-foot .cp-txt ul {
+    display: none;
+  }
+}

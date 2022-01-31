@@ -1,0 +1,46 @@
+.thumbs {
+  display: none;
+}
+
+.carousole-div {
+  height: 80vh;
+  /* width: 80vw; */
+  /* margin: 0 10vw; */
+}
+
+.img {
+  height: 80vh;
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.carousel-status {
+  display: none;
+}
+
+.feature {
+  background-color: rgba(211, 211, 211, 0.247);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 7%;
+  border: solid 1px white;
+  color: black;
+}
+.feature h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+@media screen and (max-width: 380px){
+  .feature{
+    /* position: absolute; */
+
+  }
+  .feature h1{
+    font-size: 18px;
+  }
+}
