@@ -84,9 +84,11 @@ body {
   background-color: whitesmoke;
   display: flex;
   margin-left: 10px;
+  /* height: 100px;
+  width: 100px; */
 }
 .govt_image {
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 .college_name {
   text-align: center;
@@ -232,11 +234,13 @@ body {
   background-color: transparent;
   background-position: center;
   background-attachment: fixed;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .counter-up {
-  min-height: 50vh;
+  /* min-height: 50vh; */
+  /* margin-top: 20px; */
   background-size: cover;
   background-attachment: fixed;
   padding: 0 50px;

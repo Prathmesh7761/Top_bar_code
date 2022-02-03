@@ -9,9 +9,9 @@ import Carousole from "./components/Carousole";
 import MissionVisionAbout from "./components/MissionVisionAbout";
 import PrincipalNews from "./components/PrincipalNews";
 import Footer from "./components/Footer";
-
 import Section from "./components/Section";
 import Copyright from "./components/Copyright";
+import Departments from "./components/Departments";
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
         <Counter />
         <MissionVisionAbout />
         <PrincipalNews />
+        <Departments/>
         <Section />
         <Footer />
         <Copyright />

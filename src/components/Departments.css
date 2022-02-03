@@ -1,0 +1,104 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap'); */
+/* font-family: "Hahmlet", serif; */
+
+#department_features {
+  width: 100%;
+  padding: 50px 0 30px 0;
+}
+.department_feature {
+  text-align: center;
+}
+
+.main-text p {
+  font-size: 30px;
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-bottom: -20px;
+}
+.main-text p::after {
+  content: "";
+  top: -20px;
+  left: 0;
+  position: absolute;
+  width: 50px;
+  height: 35px;
+  background: linear-gradient(#019587, #fff);
+  z-index: -1;
+  transform: rotate(10deg);
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+
+.academicUnit {
+  width: 100%;
+  background-color: rgb(213, 221, 247);
+  height: 100%;
+  padding: 0;
+}
+
+.academic {
+  width: 80%;
+  margin: auto;
+}
+
+.unit {
+  width: 180px !important;
+  height: 170px;
+  border: 1px solid #000;
+  /* padding: 30px; */
+  margin: 0.7rem;
+  text-align: center;
+}
+.unit i {
+  font-size: 50px;
+  color: black;
+  padding: 20px;
+}
+.unit h2 {
+  font-size: 12px;
+  color: rgb(197, 42, 42);
+  font-weight: 600;
+  line-height: 20px;
+}
+.unit:hover {
+  background-color: rgb(197, 42, 42);
+  color: #fff !important;
+  transition: all 0.5s ease-in-out;
+}
+.unit:hover h2,
+.unit:hover i {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .academic {
+    width: 100%;
+    /* margin: auto; */
+  }
+  .academicUnit {
+    height: 800px;
+  }
+  .unit {
+    width: 160px !important;
+    height: 150px;
+    margin: 1rem;
+    text-align: center;
+  }
+  .unit i {
+    font-size: 40px;
+    padding-top: 15px !important;
+    padding: 10px;
+    color: black;
+    text-align: center;
+  }
+  .unit h2 {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+    color: rgb(209, 34, 34);
+  }
+}

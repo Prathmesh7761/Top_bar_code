@@ -7,7 +7,7 @@ export default function College_name() {
         <div>
             <div className="header_div">
                 <div className="college_image">
-                    <img src={College_img} alt="logo" />
+                    <img src={College_img} alt="logo" height={125} width={150} />
                 </div>
                 <div className="college_name">
                     <h2 className="college_name_title">
@@ -22,7 +22,7 @@ export default function College_name() {
                     </p>
                 </div>
                 <div className="govt_image">
-                    <img src={govt_logo} alt="logo" />
+                    <img src={govt_logo} alt="logo" height={125} width={150} />
                 </div>
             </div>
         </div>

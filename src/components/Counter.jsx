@@ -2,10 +2,10 @@ import React from 'react';
 
 export const Counter = () => {
     return (
-        <><div class='container'>
+        <><div class='container main_counter'>
             <div className='counter-section' style={{backgroundColor:'#ffc9bf', border:'1px solid red',borderRadius:'10px'}}>
                 <div className='counter-up'>
-                    <div className='content'>
+                    <div className='content'> 
                         <div className ='box'>
                             <div className='icon'>
                                 <i className ='fas fa-history'></i>

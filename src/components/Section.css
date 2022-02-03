@@ -22,24 +22,3 @@
   font-size: 25px;
   font-weight: 600;
 }
-/*========================Gallery section ================  */
-.gallery {
-  /* margin-top: 100px; */
-  background-color: rgb(248, 241, 241);
-}
-.carousel {
-  display: flex;
-  justify-content: center;
-}
-.carousel .slide {
-  height: 40vh;
-}
-.carousel .slide img {
-  max-height: 100%;
-  width: auto;
-}
-.image1 {
-  margin: 0 auto;
-  height: 100%;
-  width: auto;
-}
